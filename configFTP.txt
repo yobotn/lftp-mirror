@@ -1,4 +1,0 @@
-SERVER='ftp.yourhost.com:21'
-USER='user@yourhost.com'
-PASSWORD='yourpassword'
-TIMESYNC='5'
