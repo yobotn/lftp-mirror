@@ -2,7 +2,7 @@
 
 - ## This script logs errors when unable to connect to server or failed logins only!
 
-### - config_ftp.txt
+### - <span style=“color:green;”> text goes here</span> config_ftp.txt
 
 - This file is required  to be read from the mirror_ftp.sh file.
 
