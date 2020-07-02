@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ##########################
-#	  Logging Script
+#     Logging Script
 ##########################
 
-DEBUG="1" #0-TERMINAL/1-FILE
+DEBUG="0" #0-TERMINAL/1-FILE
 
 LOG_FILE="log.lftp"
 
@@ -33,7 +33,7 @@ logErrors() {
 }
 
 ##########################
-#	   Mirror Script
+#     Mirror Script
 ##########################
 
 CONFIG_FILE="configFTP.txt"
