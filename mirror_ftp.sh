@@ -23,7 +23,7 @@ logErrors() {
 				fi
 
 				if [ "${DEBUG}" -eq "1" ]; then
-					echo "${RESULT}" >> log.lftp
+					echo "${RESULT}" >> "${LOG_FILE}"
 				fi
 
 			fi
@@ -47,7 +47,7 @@ if [ ! -f "${CONFIG_FILE}" ]; then
 	fi
 
 	if [ "${DEBUG}" -eq "1" ]; then
-		echo "${MSG}" >> log.lftp
+		echo "${MSG}" >> "${LOG_FILE}"
 	fi
 
 	exit 0
