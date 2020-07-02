@@ -26,8 +26,6 @@ First Header | Second Header
 
 
 # ```diff
-+ # this text is highlighted in green
-# - this text is highlighted in red
-+# this text is highlighted in green
-#- this text is highlighted in red
++ this text is highlighted in green
+- this text is highlighted in re
 ```
