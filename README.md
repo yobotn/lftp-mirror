@@ -16,9 +16,9 @@
  - This file has two parts, the first part is the ***Logger*** function that accept log from the mirroring task, and the second part is the ***LFTP*** script to mirror the files from the remote FTP folder to local folder.
 
 
-First Header | Second Header
+VARIABLE | COMMENT
 ------------ | -------------
-***DEBUG*** | where to show/save logs >  "0">Terminal "1">"Log file"
+***DEBUG*** | where to show/save logs >  "0">Terminal "1">Log file
 ***LOG_FILE*** | where to save log file
 ***CONFIG_FILE*** | ftp config file location
 ***LCD*** | where to mirror files
