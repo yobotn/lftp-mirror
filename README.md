@@ -24,8 +24,3 @@ First Header | Second Header
 ***LCD*** | where to mirror files
 ***PARALLEL*** | how many files to download in 
 
-
-# ```diff
-+ this text is highlighted in green
-- this text is highlighted in re
-```
