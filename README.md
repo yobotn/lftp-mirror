@@ -2,18 +2,18 @@
 
 - ## This script logs errors when unable to connect to server or failed logins only!
 
-### config_ftp.txt
+### - config_ftp.txt
 
-- This file is required  to be read from the mirror_ftp.sh file
+- This file is required  to be read from the mirror_ftp.sh file.
 
- - This file has **SERVER**, **USER**, **PASSWORD** values to connect to the FTP server,
+ - This file has **SERVER**, **USER**, **PASSWORD** values to connect to the FTP server.
 
  - **TIMESYNC** value is used to determine how often to repeat mirroring in X minutes.
 
 
 ### - mirror_ftp.sh
 
- - This file has two parts, the first part is the ***Logger*** function that accept log from the mirroring task, and the second part is the ***LFTP*** script to mirror the remote folder to local folder.
+ - This file has two parts, the first part is the ***Logger*** function that accept log from the mirroring task, and the second part is the ***LFTP*** script to mirror the files from the remote FTP folder to local folder.
 
 
 First Header | Second Header
