@@ -10,8 +10,33 @@ $ sudo wget https://github.com/yobotn/lftp-mirror/blob/master/config_ftp.txt
 $ sudo wget https://github.com/yobotn/lftp-mirror/blob/master/mirror_ftp.sh
 ```
 
-- **1.** Edit **mirror_ftp.sh** file and set where to mirror your remote ftp folder by changing **LCD** variable.
-- **2.** Edit **config_ftp.txt** file and set your ftp login credentials.
+- Edit **mirror_ftp.sh** file and set where to mirror your remote ftp folder by changing **LCD** variable.
+- Edit **config_ftp.txt** file and set your ftp login credentials.
+
+```sh
+$ sudo vim mirror_ftp.sh
+$ sudo vim config_ftp.txt 
+```
+
+or
+
+```sh
+$ sudo nano mirror_ftp.sh 
+$ sudo nano config_ftp.txt
+```
+
+- Now you can make the **mirror_ftp.sh** file an executable or run it with bash directly.
+
+**Executable**
+```sh
+$ sudo chmod +x mirror_ftp.sh
+$ sudo ./mirror_ftp.sh
+```
+
+**Bash**
+```sh
+$ sudo bash mirror_ftp.sh
+```
 
 ##  Documentation
 
