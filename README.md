@@ -1,6 +1,19 @@
 # Mirror files from remote FTP folder to local folder using LFTP in Linux
 
-- ## This script logs errors when unable to connect to server or failed logins only!
+```diff
+- This script logs errors when unable to connect to server or failed logins only!
+```
+
+## Usage
+```sh
+$ sudo wget https://github.com/yobotn/lftp-mirror/blob/master/config_ftp.txt
+$ sudo wget https://github.com/yobotn/lftp-mirror/blob/master/mirror_ftp.sh
+```
+
+- **1.** Edit **mirror_ftp.sh** file and set where to mirror your remote ftp folder by changing **LCD** variable.
+- **2.** Edit **config_ftp.txt** file and set your ftp login credentials.
+
+##  Documentation
 
 ### - config_ftp.txt
 
@@ -18,7 +31,7 @@
 
 VARIABLE | COMMENT
 ------------ | -------------
-***DEBUG*** | where to show/save logs >  "0">Terminal "1">Log file
+***DEBUG*** | where to show/save logs >  "**0**">**Terminal** "**1**">**Log file**
 ***LOG_FILE*** | where to save log file
 ***CONFIG_FILE*** | ftp config file location
 ***LCD*** | where to mirror files
